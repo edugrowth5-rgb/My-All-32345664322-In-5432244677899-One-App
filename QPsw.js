@@ -2,7 +2,7 @@ const CACHE_NAME = 'success-zone-v1';
 // List all files with the QP prefix to be cached
 const urlsToCache = [
   './',
-  './QPindex.html',
+  './index.html',
   './QPstyle.css',
   './QPapp.js',
   './QPchapter1.js',
