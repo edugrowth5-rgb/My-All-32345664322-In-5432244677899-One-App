@@ -1,6 +1,6 @@
 {
   "name": "Success Zone Quiz",
-  "short_name": "SuccessZone",
+  "short_name": "All In One",
   "description": "Educational Quiz App for Computer Science and GK",
   "start_url": "./index.html",
   "display": "standalone",
