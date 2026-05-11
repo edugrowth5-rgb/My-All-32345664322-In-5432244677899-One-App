@@ -43,17 +43,18 @@ function initQuiz(resume) {
 
 // --- CHAPTER LOADING LOGIC ---
 function loadChapter(chapterNumber) {
-    // Yahan hum case 3 (GK) add kar rahe hain
     if(chapterNumber === 1) {
         quizData = chapter1Data;
     } else if(chapterNumber === 2) {
         quizData = chapter2Data;
     } else if(chapterNumber === 3) {
-        // Jab aap GK par click karenge, ye 103+ questions load honge
         quizData = gkquizData; 
+    } else if(chapterNumber === 4) {
+        // Naya Networking Chapter yahan add kiya gaya hai
+        quizData = chapter3Data; 
     }
     
-    // Baki pura logic same rahega
+    // Baki logic bilkul perfect hai
     curIdx = 0;
     score = 0;
     localStorage.removeItem('qp_idx');
